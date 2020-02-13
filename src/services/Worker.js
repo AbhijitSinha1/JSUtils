@@ -6,7 +6,7 @@ const {
   ERROR_TIMEOUT_NOT_A_NUMBER,
   ERROR_PROCESS_STILL_RUNNING,
   ERROR_PROCESS_NOT_RUNNING,
-} = require ('./constants');
+} = require ('../utils/constants');
 
 const LOGGER = require ('./Logger');
 

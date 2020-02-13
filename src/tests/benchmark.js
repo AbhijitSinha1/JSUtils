@@ -1,4 +1,4 @@
-const LOGGER = require ('./Logger');
+const LOGGER = require ('../services/Logger');
 const Log = new LOGGER ();
 
 const message = 'hi';
