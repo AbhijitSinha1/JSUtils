@@ -1,6 +1,6 @@
-const WORKER = require ('./Worker');
-const LOGGER = require ('./Logger');
-const DEBOUNCER = require ('./Debouncer');
+const WORKER = require ('../services/Worker');
+const LOGGER = require ('../services/Logger');
+const DEBOUNCER = require ('../services/Debouncer');
 
 const Log = new LOGGER ();
 
